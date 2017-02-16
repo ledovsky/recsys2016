@@ -21,12 +21,10 @@ def batch_generator(n, batch_size):
 
 
 # Get data
+print 'Reading and preprocessing data'
 users, items, interactions, target_users, active_items = get_data()
 
 target_users = users.loc[target_users.user_id]
-
-# debug
-# target_users = target_users.iloc[:1000, :]
 
 # Get cold start users
 warm_start_users = (set(interactions.user_id.unique())

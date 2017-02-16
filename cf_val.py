@@ -22,6 +22,7 @@ def batch_generator(n, batch_size):
 
 
 # Get data
+print 'Reading and preprocessing data'
 users, items, interactions, target_users, active_items = get_data()
 
 # Get stuff for validation

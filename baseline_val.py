@@ -18,7 +18,7 @@ users.career_level = users.career_level.replace(0, 3)
 
 # Get stuff for validation
 interactions_train, interactions_val, target_val, users_val = (
-    get_val_data(users, items, interactions, n=2000, random_state=42))
+    get_val_data(users, items, interactions))
 
 
 print 'Count Vectorizer'
