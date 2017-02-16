@@ -10,7 +10,7 @@
 
 ## Описание файлов
 
-* cf.py, cf_val.py - реализация основного алгоритма (для отправки и для валидации)
+* cf.py, cf_val.py - реализация основного алгоритма Collaborative Filtration (для отправки и для валидации)
 * get_data.py - загрузка и предобработка данных
 * evaluation.py - python реализация алгоритма оценки отсюда https://github.com/recsyschallenge/2016/blob/master/EvaluationMeasure.md
 * baseline_val.py - реализация базового алгоритма для сравнения https://github.com/recsyschallenge/2016/blob/master/Baselines.md
